@@ -8,7 +8,7 @@ import IllustrationImage from "../../assets/illustration.png";
 export  function SignIn(){
   return(
     <View style={styles.container}>
-      <StatusBar barStyle="light-content" backgroundColor="transparent" translucent/>
+      
       <Image 
       source={IllustrationImage} 
       style={styles.image}
@@ -17,9 +17,10 @@ export  function SignIn(){
       />   
       <View style={styles.content}>
           <Text style={styles.title}>
-            Organize {`\n`}
-            suas jogatinas {`\n`}
-            facilmente
+            Conecte-se  {`\n`}
+            e organize suas {`\n`} 
+            jogatinas {`\n`}
+            
           </Text>
           <Text style={styles.subtitle}>
               Crie grupos para jogar seus games {`\n`}
@@ -28,9 +29,6 @@ export  function SignIn(){
 
           <ButtonIcon title={"Entrar com Discord"}/>
       </View>
-
-      
-     
     </View>
   )
 }
